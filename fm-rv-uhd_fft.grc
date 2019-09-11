@@ -97,7 +97,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(664, 435)</value>
+      <value>(896, 799)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -247,7 +247,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(888, 267)</value>
+      <value>(1120, 625)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -282,7 +282,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(528, 347)</value>
+      <value>(760, 710)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -388,7 +388,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(528, 435)</value>
+      <value>(760, 798)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -427,7 +427,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(680, 347)</value>
+      <value>(912, 710)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -537,6 +537,61 @@
     </param>
   </block>
   <block>
+    <key>analog_nbfm_rx</key>
+    <param>
+      <key>audio_rate</key>
+      <value>32000</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(592, 551)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>analog_nbfm_rx_0</value>
+    </param>
+    <param>
+      <key>max_dev</key>
+      <value>5e3</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>quad_rate</key>
+      <value>32000</value>
+    </param>
+    <param>
+      <key>tau</key>
+      <value>75e-6</value>
+    </param>
+  </block>
+  <block>
     <key>parameter</key>
     <param>
       <key>alias</key>
@@ -620,6 +675,53 @@
     <param>
       <key>value</key>
       <value></value>
+    </param>
+  </block>
+  <block>
+    <key>audio_sink</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>device_name</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(872, 580)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>audio_sink_0</value>
+    </param>
+    <param>
+      <key>num_inputs</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>ok_to_block</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>48000</value>
     </param>
   </block>
   <block>
@@ -820,7 +922,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>107.6e6</value>
+      <value>2410e6</value>
     </param>
   </block>
   <block>
@@ -898,6 +1000,81 @@
     </param>
   </block>
   <block>
+    <key>low_pass_filter</key>
+    <param>
+      <key>beta</key>
+      <value>6.76</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>cutoff_freq</key>
+      <value>7500</value>
+    </param>
+    <param>
+      <key>decim</key>
+      <value>25</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>fir_filter_ccf</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(384, 538)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>gain</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>low_pass_filter_0</value>
+    </param>
+    <param>
+      <key>interp</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>samp_rate</value>
+    </param>
+    <param>
+      <key>width</key>
+      <value>5000</value>
+    </param>
+    <param>
+      <key>win</key>
+      <value>firdes.WIN_HAMMING</value>
+    </param>
+  </block>
+  <block>
     <key>qtgui_freq_sink_x</key>
     <param>
       <key>autoscale</key>
@@ -917,7 +1094,7 @@
     </param>
     <param>
       <key>fc</key>
-      <value>freq</value>
+      <value>float(freq_c)</value>
     </param>
     <param>
       <key>comment</key>
@@ -1173,7 +1350,7 @@
     </param>
     <param>
       <key>wintype</key>
-      <value>firdes.WIN_BLACKMAN_hARRIS</value>
+      <value>firdes.WIN_HAMMING</value>
     </param>
     <param>
       <key>ymax</key>
@@ -1575,7 +1752,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(320, 315)</value>
+      <value>(336, 318)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -1802,7 +1979,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>40e6</value>
+      <value>28e6</value>
     </param>
   </block>
   <block>
@@ -3057,6 +3234,18 @@
     </param>
   </block>
   <connection>
+    <source_block_id>analog_nbfm_rx_0</source_block_id>
+    <sink_block_id>audio_sink_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>low_pass_filter_0</source_block_id>
+    <sink_block_id>analog_nbfm_rx_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
     <source_block_id>qtgui_freq_sink_x_0</source_block_id>
     <sink_block_id>qtgui_freq_sink_x_0</sink_block_id>
     <source_key>freq</source_key>
@@ -3067,6 +3256,12 @@
     <sink_block_id>uhd_usrp_source_0</sink_block_id>
     <source_key>freq</source_key>
     <sink_key>command</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>uhd_usrp_source_0</source_block_id>
+    <sink_block_id>low_pass_filter_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
   </connection>
   <connection>
     <source_block_id>uhd_usrp_source_0</source_block_id>
